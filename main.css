@@ -1,0 +1,91 @@
+h2 {
+	font-family: 'Boogaloo', cursive;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif; 
+} 
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	} 
+	/* Header */
+.locator {
+	background-color:#000B21;
+} 
+
+.locator ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+} 
+
+.locator li {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	padding: 0px 30px;
+	margin: 0;
+	text-decoration: none;
+} 
+ 
+
+/* Jumbotron */ 
+.jumbotron {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/pup%20with%20ball_zpsrojjowzv.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 10px;
+} 
+
+.jumbotron h1 {
+	color: #000B21;
+	font-weight: 700;
+	font-family: 'Boogaloo', cursive;
+	text-shadow: 3px 3px 8px #ffffff;
+} 
+.jumbotron h2 {
+	color: #000B21;
+	font-weight: 400;
+	font-family: 'Boogaloo', cursive;
+	text-shadow: 3px 3px 8px #ffffff;
+} 
+/* Supporting */
+.parks, .hotels, .restaurants, .beaches{
+	padding: 70px 30px; 
+}
+
+
+
+
+
+  /* Footer */
+
+ .footer {
+ 	color:#ffffff;
+ 	background-color: #000B21;
+ 	padding: 20px;
+ }
+
+ .logo {
+ 	padding-top: 10px;
+ }
+
+ .names {
+  	color: #fff;
+  }
+
+ @media (max-width: 500px) { 
+ 	ul li {
+ 	 width: 100%;
+ 	 }
+ }
