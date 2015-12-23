@@ -60,10 +60,14 @@ html, body {
 	text-shadow: 3px 3px 8px #ffffff;
 } 
 /* Supporting */
-.parks, .hotels, .restaurants, .beaches{
+#parks, #hotels, #restaurants, #beaches{
 	padding: 70px 30px; 
 }
-
+.scroll  {
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
 
 
 
