@@ -69,7 +69,11 @@ html, body {
     overflow: scroll;
 }
 
+/*Contact*/
 
+#contact {
+	margin: 10px;
+}
 
 
   /* Footer */
