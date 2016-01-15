@@ -80,6 +80,17 @@ html, body {
 	margin: 10px 10px 150px 10px;
 }
 
+#contact input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #000B21;
+  transition: border 0.3s;
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="text"].focus {
+  border-bottom: solid 2px #000B21;
+}
 
   /* Footer */
 
